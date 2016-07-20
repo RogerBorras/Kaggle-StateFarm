@@ -288,10 +288,6 @@ if(!is.null(test_pred)){
   write.csv(df,"submission.csv",quote=F,row.names=F);
 }    
 
-#XGBOOST
-
-library(xgboost)
-
 setwd("C:/Documents and Settings/rborras/Escritorio/1.ROGER/386.KGL_CARS")
 
 train_img_matrix <- read.csv("F:/KAGGLE_Distracted_Driver_Detection/train_img_matrix.csv")
