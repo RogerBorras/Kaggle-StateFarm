@@ -295,7 +295,6 @@ train_img_matrix$X <- NULL
 sample_train <- sample(1:nrow(train_img_matrix), size=nrow(train_img_matrix)*0.5)
 sample_train <- sample(1:nrow(train_img_matrix), size=nrow(train_img_matrix)*0.2631579)
 
-?write.csv
 write.csv(train_img_matrix_xg, file = "Driver_Detection_sample.csv" )
 
 train_img_matrix_xg <- train_img_matrix[sample_train, ]
