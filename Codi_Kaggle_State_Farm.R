@@ -7,7 +7,6 @@ library("nnet")
 library("EBImage")
 library("xgboost")
 library("caret")
-library("Rtsne")
 
 #directori
 
